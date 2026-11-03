@@ -103,7 +103,7 @@ predictBtn.onclick = async () => {
 
             const data = await res.json();
             updateCounters(data.counts);
-            showOutput(data.result_videoz);
+            showOutput(data.result_video);
         }
 
     } else {
