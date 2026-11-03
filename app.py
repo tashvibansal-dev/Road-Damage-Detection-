@@ -31,11 +31,11 @@ def count_detections(results):
 
     # CLASS NAME → CODE MAP
     class_map = {
-    "Longitudinal Crack": "D00",
-    "Transverse Crack": "D10",
-    "Alligator Crack": "D20",
-    "Pothole": "D40",
-    "Other Corruption": "OTHER"
+    "longitudinal_crack": "D00",
+    "transverse_crack": "D10",
+    "alligator_crack": "D20",
+    "pothole": "D40",
+    "other_corruption": "OTHER"
 }
 
     for r in results:
